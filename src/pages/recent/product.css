@@ -1,0 +1,114 @@
+.productdisplay{
+    display: flex;
+    margin: 15px 170px;
+  }
+  .productdisplay-left{
+    display: flex;
+    gap: 17px;
+  }
+  .productdisplay-main-img{
+    /* width: 468px;
+    height: 90%; */
+    width:600px;
+    height:100%;
+    margin-top:0px;
+    /* border: 2.5px solid green; */
+    border: none;
+  }
+  .back-btn{
+    position: relative;
+    right:10%;
+  }
+  .productdisplay-right{
+    margin: 120px 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .productdisplay-right h1{
+    color:#3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0em;
+  }
+  .productdisplay-right-description{
+    margin-top: 0em;
+  }
+  .productdisplay-right-description p{
+    font-weight: 600;
+    color: gray;
+  }
+  .productdisplay-right-prices p{
+    font-size: 20px;
+    font-weight: 500;
+  
+  }
+  
+  .custom-input {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 35%;
+  }
+  
+  .custom-input label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #555;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+  }
+  
+  .custom-input input {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .custom-input input:focus {
+    border-bottom: 3.5px solid green;
+  }
+  
+  .custom-input input:focus + label,
+  .custom-input input:not(:placeholder-shown) + label {
+    top: -18px;
+    font-size: 17px;
+    color: green;
+  }
+  
+  .small-text {
+    font-size: 10px;
+    color: green !important;
+    font-weight: 500;
+  }
+  .product-btn{
+    position: absolute;
+    left:120%;
+    bottom: 20%;
+  }
+  .back-btn1{
+    height: 45px;
+    padding: 0.5px;
+    width: 75px;
+    background-color: black;
+    border-radius: 6px;
+  }
+  .product-btn1{
+    background-color: #4CAF50;
+    width: 100px;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  
+  }
+  
+  .productdisplay-right-category{
+    font-weight: 600;
+  }
